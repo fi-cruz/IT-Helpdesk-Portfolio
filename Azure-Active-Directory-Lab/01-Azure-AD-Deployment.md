@@ -4,7 +4,7 @@
 - Microsoft Azure Virtual Machine
 - Windows Server 2022 Datacenter (x64)
 - Active Directory Domain Services Installed
-- Domain: fidel.local
+- Domain: helpdesk.local
 
 ---
 
