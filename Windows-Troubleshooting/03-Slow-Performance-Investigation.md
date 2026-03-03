@@ -35,6 +35,10 @@ Too many apps running simultaneously and unnecessary startup processes consuming
 
 ## Screenshots
 - Screenshot 1: High CPU/Memory usage
+![High CPU/Memory usage](01-high-cpu-usage.png)
 - Screenshot 2: Identified culprit process
 - Screenshot 3: Optimized Task Manager
+![Optimized Task Manager](03-optimized-task-manager.png)
 - Screenshot 4: Normalized performance
+![Normalized performace](04-normalized-performance.png)
+
