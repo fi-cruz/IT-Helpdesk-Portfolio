@@ -6,7 +6,7 @@ Demonstrate administrative control using Group Policy in an Active Directory env
 ## Environment
 - Azure VM
 - Windows Server 2022
-- Domain: fidel.local
+- Domain: helpdesk.local
 
 ## Task
 Restricted user access to Control Panel using Group Policy.
@@ -15,7 +15,7 @@ Restricted user access to Control Panel using Group Policy.
 - Created new GPO: Disable-Control-Panel-Policy
 - Configured Administrative Template
 - Enabled “Prohibit access to Control Panel”
-- Linked GPO to CorporateUsers OU
+- Linked GPO
 
 ## Security Concept Demonstrated
 - Centralized policy management
