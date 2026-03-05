@@ -34,7 +34,7 @@ ping google.com
 
 Result indicated DNS resolution failure.
 ## Screenshot-DNS Failure
-![DNS-Failure](../
+![DNS-Failure](../Windows-Troubleshooting/Screenshots/Windows/broken-ping.png)
 
 3. Investigated potential DNS configuration issues.
 
