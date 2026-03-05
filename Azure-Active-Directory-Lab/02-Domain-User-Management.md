@@ -45,6 +45,7 @@ Two security groups were created inside the SecurityGroups OU.
 |-----|-----|
 | IT-Support | Administrative IT staff |
 | Accounting | Accounting department users |
+
 ![group created](../Azure-Active-Directory-Lab/Screenshots/02-new-group.png)
 
 ---
