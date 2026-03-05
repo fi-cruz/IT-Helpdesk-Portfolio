@@ -11,7 +11,7 @@ Deploy Active Directory Domain Services (AD DS) on a Windows Server 2022 virtual
 - Microsoft Azure Virtual Machine
 - Windows Server 2022 Datacenter (Desktop Experience)
 - Remote access using RDP
-- Domain created: fidel.local
+- Domain created: help.local
 
 ---
 
@@ -45,7 +45,7 @@ After installation completed:
 1. Click the notification flag in Server Manager
 2. Select **Promote this server to a domain controller**
 3. Choose **Add a new forest**
-4. Enter root domain name: `fidel.local`
+4. Enter root domain name: `helpdesk.local`
 5. Set Directory Services Restore Mode password
 6. Complete configuration
 
@@ -59,7 +59,7 @@ After reboot:
 
 - Logged into the server using domain credentials
 - Opened **Active Directory Users and Computers**
-- Verified the domain `fidel.local` was successfully created
+- Verified the domain `helpdesk.local` was successfully created
 
 ---
 
