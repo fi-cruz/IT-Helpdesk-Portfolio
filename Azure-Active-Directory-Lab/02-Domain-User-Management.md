@@ -7,7 +7,7 @@ Simulate common Help Desk tasks involving user account management within an Acti
 - Microsoft Azure Virtual Machine
 - Windows Server 2022 Datacenter
 - Active Directory Domain Services installed
-- Domain: fidel.local
+- Domain: helpdesk.local
 
 ---
 
@@ -33,6 +33,7 @@ The following users were created inside the CorporateUsers OU:
 | Fidel Cruz | fcruz | IT Support |
 
 Each account was configured with a temporary password and standard user privileges.
+![add-user-group](../Azure-Active-Directory-Lab/Screenshots/03-add-user-group.png)
 
 ---
 
