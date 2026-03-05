@@ -123,7 +123,8 @@ apt install htop
 
 Result: Permission denied due to insufficient privileges.
 ## Screenshot- htop Denied
-![htop denied]((../Linux-Labs/01-Linux-Lab-Screenshots/
+![htop denied](../Linux-Labs/01-Linux-Lab-Screenshots/before-htop.png)
+
 ---
 
 ### Install Package Using Elevated Privileges
@@ -144,6 +145,9 @@ The installed package was verified using:
 htop
 
 The system monitoring tool launched successfully, confirming the installation was completed using elevated privileges.
+## Screenshot-htop functional
+![htop functional](../Linux-Labs/01-Linux-Lab-Screenshots/working-htop.png)
+
 
 ---
 
