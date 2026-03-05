@@ -33,7 +33,7 @@ Result confirmed the system had network access.
 ping google.com
 
 Result indicated DNS resolution failure.
-## Screenshot-DNS Failure
+## Screenshot-DNS-Failure
 ![DNS-Failure](../Windows-Troubleshooting/Screenshots/Windows/broken-dns.png)
 
 3. Investigated potential DNS configuration issues.
@@ -45,6 +45,8 @@ Result indicated DNS resolution failure.
 6. Cleared DNS cache using:
 
 ipconfig /flushdns
+## Screenshot-Fixed-DNS
+![Fixed-DNS]((../Windows-Troubleshooting/Screenshots/Windows/fixed-dns.png)
 
 ## Resolution
 Removed incorrect hosts file entry and cleared DNS cache, restoring proper DNS resolution.
