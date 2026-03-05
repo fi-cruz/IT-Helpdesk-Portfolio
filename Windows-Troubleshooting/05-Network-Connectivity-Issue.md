@@ -1,4 +1,4 @@
-# Ticket 005 – Network Connectivity Failure
+# Ticket 05 – Network Connectivity Failure
 
 ## Issue
 User reported inability to access the internet from a Windows workstation.
