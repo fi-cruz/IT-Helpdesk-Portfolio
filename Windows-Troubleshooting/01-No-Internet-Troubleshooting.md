@@ -12,7 +12,7 @@ User reported inability to access the internet on a Windows 11 workstation.
 - Network adapter appeared disabled
 - Ping test to 8.8.8.8 failed
 ## Screenshot - Adapter Disabled
-![Adapter Disabled](01-adapter-disabled.png)
+![Adapter Disabled](../Screenshots/Windows/01-adapter-disabled.png)
 
 ## Screenshot - Failed Ping
 ![Failed Ping](02-failed-ping.png)
