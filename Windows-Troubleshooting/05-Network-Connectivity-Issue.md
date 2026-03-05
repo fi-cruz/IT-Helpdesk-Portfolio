@@ -18,7 +18,7 @@ User reported inability to access the internet from a Windows workstation.
 
 ipconfig
 ## Screenshot-ipconfig
-![ipconifg](../Windows-Troubleshooting/Screenshots/Windows/ipconfig-all.png)
+![ipconifg](../Windows-Troubleshooting/Screenshots/Windows/ip-configall.png)
 
 2. Tested external connectivity using:
 
