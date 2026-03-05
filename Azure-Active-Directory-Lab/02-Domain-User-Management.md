@@ -72,14 +72,17 @@ The following common administrative tasks were performed:
 Reset password for user:
 
 fcruz
+
 ![password reset](../Azure-Active-Directory-Lab/Screenshots/04-reset-password.png)
 
 ### Account Disable
 User account temporarily disabled to simulate security investigation.
+
 ![account disable](../Azure-Active-Directory-Lab/Screenshots/05-disable-user.png)
 
 ### Account Re-enable
 Account reactivated after verification.
+
 ![account re-enable](../Azure-Active-Directory-Lab/Screenshots/06-enable-user.png)
 
 These tasks represent standard help desk identity management responsibilities.
