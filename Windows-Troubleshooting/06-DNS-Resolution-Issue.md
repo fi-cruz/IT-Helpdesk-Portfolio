@@ -33,6 +33,8 @@ Result confirmed the system had network access.
 ping google.com
 
 Result indicated DNS resolution failure.
+## Screenshot-DNS Failure
+![DNS-Failure](../
 
 3. Investigated potential DNS configuration issues.
 
