@@ -26,7 +26,12 @@ cd
 - Verified current working directory using `pwd`
 - Listed files and folders using `ls`
 - Displayed hidden files and permissions using `ls -la`
+## Screenshot-ls -la
+![ls -la](../Linux-Labs/01-Linux-Lab-Screenshots/ls-la-beforechmod.png)
+
 - Navigated directories including `/`, `/home`, and the current user's home directory using `cd`
+## Screenshot-Navigate Directories
+![Navigate Directories](../Linux-Labs/01-Linux-Lab-Screenshots/moving-trajectory.png)
 
 This exercise demonstrated the hierarchical structure of the Linux file system.
 
@@ -51,6 +56,8 @@ rmdir labfolder
 - Verified creation using `ls`
 - Removed the file using `rm`
 - Removed the directory using `rmdir`
+## Screenshot-File Creation and Deletion
+![File Creation and Deletion](../Linux-Labs/01-Linux-Lab-Screenshots/add-remove-file.png)
 
 This demonstrates basic file system management through the command line.
 
@@ -97,6 +104,8 @@ After modification:
 -rw-------
 
 This restricts file access so that only the file owner can read or write the file.
+## Screenshot-File Permissions
+![File Permissions](../Linux-Labs/01-Linux-Lab-Screenshots/after-chmod.png)
 
 This demonstrates secure file access management using the `chmod` command.
 
@@ -113,7 +122,8 @@ Command used:
 apt install htop
 
 Result: Permission denied due to insufficient privileges.
-
+## Screenshot- htop Denied
+![htop denied]((../Linux-Labs/01-Linux-Lab-Screenshots/
 ---
 
 ### Install Package Using Elevated Privileges
