@@ -46,7 +46,7 @@ Result indicated DNS resolution failure.
 
 ipconfig /flushdns
 ## Screenshot-Fixed-DNS
-![Fixed-DNS]((../Windows-Troubleshooting/Screenshots/Windows/fixed-dns.png)
+![Fixed-DNS](../Windows-Troubleshooting/Screenshots/Windows/fixed-dns.png)
 
 ## Resolution
 Removed incorrect hosts file entry and cleared DNS cache, restoring proper DNS resolution.
