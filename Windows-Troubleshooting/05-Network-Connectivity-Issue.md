@@ -25,6 +25,8 @@ ipconfig
 ping 8.8.8.8
 
 Result: No response received.
+## Screenshot- Failed Ping
+![Failed Ping](../Windows-Troubleshooting/Screenshots/Windows/ping-failure.png)
 
 3. Inspected network adapter status and discovered the adapter was disabled.
 
@@ -33,8 +35,12 @@ Result: No response received.
 5. Renewed IP configuration using:
 
 ipconfig /renew
+## Screenshot-Renewed IP
+![Renewed IP](../Windows-Troubleshooting/Screenshots/Windows/iprenew-fix.png)
 
 6. Retested connectivity.
+## Screenshot-Working Ping
+![Working Ping](../Windows-Troubleshooting/Screenshots/Windows/working-ping.png)
 
 ## Resolution
 Network adapter had been disabled. Re-enabling the adapter restored network connectivity.
