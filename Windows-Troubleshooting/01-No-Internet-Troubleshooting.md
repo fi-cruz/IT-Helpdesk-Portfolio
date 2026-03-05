@@ -15,7 +15,7 @@ User reported inability to access the internet on a Windows 11 workstation.
 ![Adapter Disabled](../Windows-Troubleshooting/Screenshots/Windows/01-adapter-disabled.png)
 
 ## Screenshot - Failed Ping
-![Failed Ping](02-failed-ping.png)
+![Failed Ping](../Windows-Troubleshooting/Screenshots/Windows/02-failed-ping.png)
 
 ## 4. Troubleshooting Steps Taken
 - Verified network adapter status
@@ -25,11 +25,11 @@ User reported inability to access the internet on a Windows 11 workstation.
 - Renewed DHCP lease using `ipconfig /renew`
 - Re-tested connectivity
 ## Screenshot - Succesful Ping
-![Succesful Ping](04-successful-ping.png)
+![Succesful Ping](../Windows-Troubleshooting/Screenshots/Windows/04-successful-ping.png)
 ## Screenshot - Adapter Enabled
-![Adapter Enabled](03-adapter-enabled.png)
+![Adapter Enabled](../Windows-Troubleshooting/Screenshots/Windows/03-adapter-enabled.png)
 ## Screenshot - Browser Restored
-![Browser Restored](05-browser-restored.png)
+![Browser Restored](../Windows-Troubleshooting/Screenshots/Windows/05-browser-restored.png)
 
 ## 5. Resolution
 Network adapter was disabled. Re-enabling the adapter restored internet connectivity.
