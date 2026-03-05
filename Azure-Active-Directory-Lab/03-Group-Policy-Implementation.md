@@ -7,7 +7,7 @@ Demonstrate centralized policy management using Group Policy in an Active Direct
 - Microsoft Azure Virtual Machine
 - Windows Server 2022 Datacenter
 - Active Directory Domain Services installed
-- Domain: fidel.local
+- Domain: helpdesk.local
 - Management tool: Group Policy Management Console (GPMC)
 
 ---
