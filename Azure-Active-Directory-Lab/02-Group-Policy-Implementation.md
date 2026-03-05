@@ -55,6 +55,7 @@ Enabled the setting:
 Prohibit access to Control Panel and PC Settings
 
 This prevents users from modifying system configuration through the Control Panel.
+![Enabled Group Policy](../Azure-Active-Directory-Lab/Screenshots/03-disable-controlp.png)
 
 ---
 
@@ -63,6 +64,7 @@ This prevents users from modifying system configuration through the Control Pane
 The policy was linked to the domain organizational unit containing user accounts.
 
 This ensures the policy applies to domain users when they log in.
+![Linked GPO](../Azure-Active-Directory-Lab/Screenshots/04-disable-enabled.png)
 
 ---
 
