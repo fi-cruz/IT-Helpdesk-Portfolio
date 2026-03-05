@@ -1,30 +1,85 @@
 # Azure Lab – Group Policy Implementation
 
 ## Objective
-Demonstrate administrative control using Group Policy in an Active Directory environment.
+Demonstrate centralized policy management using Group Policy in an Active Directory environment.
 
 ## Environment
-- Azure VM
-- Windows Server 2022
-- Domain: helpdesk.local
+- Microsoft Azure Virtual Machine
+- Windows Server 2022 Datacenter
+- Active Directory Domain Services installed
+- Domain: fidel.local
+- Management tool: Group Policy Management Console (GPMC)
 
-## Task
-Restricted user access to Control Panel using Group Policy.
+---
+
+## Overview
+Group Policy allows administrators to control user and computer settings across a domain environment. In this lab, a policy was created to restrict user access to the Windows Control Panel.
+
+This simulates a real-world scenario where organizations restrict system settings to maintain security and standardization.
+
+---
 
 ## Steps Performed
-- Created new GPO: Disable-Control-Panel-Policy
-- Configured Administrative Template
-- Enabled “Prohibit access to Control Panel”
-- Linked GPO
 
-## Security Concept Demonstrated
-- Centralized policy management
-- Least privilege enforcement
-- Enterprise-level compliance control
+### 1. Opened Group Policy Management
+Accessed the Group Policy Management Console through:
 
-<img width="467" height="345" alt="Screenshot 2026-03-02 at 11 00 47 PM" src="https://github.com/user-attachments/assets/05e79c2f-c161-4164-9f1f-0b4df5be2c29" />
-<img width="680" height="628" alt="Screenshot 2026-03-02 at 11 07 35 PM" src="https://github.com/user-attachments/assets/abe6a98e-f6d6-4b75-a57e-f0fe89b1e433" />
-<img width="735" height="495" alt="Screenshot 2026-03-02 at 11 08 23 PM" src="https://github.com/user-attachments/assets/cc550d4d-1f09-4735-a624-899229507745" />
+Server Manager → Tools → Group Policy Management
 
+---
+
+### 2. Created a New Group Policy Object (GPO)
+
+Inside the domain:
+
+fidel.local
+
+Created a new policy named:
+
+Disable-Control-Panel-Policy
+
+This policy will restrict users from accessing Control Panel settings.
+
+---
+
+### 3. Edited the Group Policy
+
+Navigated to the following policy path:
+
+User Configuration  
+Administrative Templates  
+Control Panel
+
+Enabled the setting:
+
+Prohibit access to Control Panel and PC Settings
+
+This prevents users from modifying system configuration through the Control Panel.
+
+---
+
+### 4. Linked the GPO
+
+The policy was linked to the domain organizational unit containing user accounts.
+
+This ensures the policy applies to domain users when they log in.
+
+---
+
+## Verification
+
+Confirmed policy configuration by reviewing the Group Policy settings and ensuring the policy was linked to the appropriate organizational unit.
+
+Users within the affected organizational unit would now be restricted from opening the Control Panel.
+
+---
+
+## Skills Demonstrated
+
+- Group Policy creation and management
+- Active Directory administrative tools
+- Enterprise policy enforcement
+- User configuration management
+- Security policy implementation
 
 
