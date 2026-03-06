@@ -7,6 +7,14 @@ This repository contains hands-on labs and troubleshooting scenarios demonstrati
 - Ubuntu Linux VM
 - Windows Server 2022 in Microsoft Azure
 
+## Portfolio Navigation
+
+Quick access to each lab section:
+
+- [Windows Troubleshooting Tickets](./Windows-Troubleshooting)
+- [Azure Active Directory Lab](./Azure-Active-Directory-Lab)
+- [Linux Administration Labs](./Linux-Labs)
+
 ## Skills Demonstrated
 - Windows OS troubleshooting
 - Active Directory user and group management
