@@ -21,6 +21,8 @@ Deploy Active Directory Domain Services (AD DS) on a Windows Server 2022 virtual
 
 Connected to the Azure Windows Server VM using Remote Desktop Protocol (RDP) with administrator credentials.
 
+![RDP](../Azure-Active-Directory-Lab/Screenshots/azure-vm-rdp.png)
+
 ---
 
 ### 2. Install Active Directory Role
@@ -33,8 +35,10 @@ Steps:
 2. Select **Role-based or feature-based installation**
 3. Choose the local server
 4. Select **Active Directory Domain Services**
+![Installation](../Azure-Active-Directory-Lab/Screenshots/ad-ds-role-install.png)
 5. Accept additional features required
-6. Complete installation
+7. Complete installation
+![Install Complete](../Azure-Active-Directory-Lab/Screenshots/ds-installed.png)
 
 ---
 
@@ -46,8 +50,9 @@ After installation completed:
 2. Select **Promote this server to a domain controller**
 3. Choose **Add a new forest**
 4. Enter root domain name: `helpdesk.local`
-5. Set Directory Services Restore Mode password
-6. Complete configuration
+![new forest](../Azure-Active-Directory-Lab/Screenshots/domain-created.png)
+6. Set Directory Services Restore Mode password
+7. Complete configuration
 
 The server automatically rebooted to finalize the promotion process.
 
@@ -60,6 +65,7 @@ After reboot:
 - Logged into the server using domain credentials
 - Opened **Active Directory Users and Computers**
 - Verified the domain `helpdesk.local` was successfully created
+![domain created](../Azure-Active-Directory-Lab/Screenshots/ad-users-console.png)
 
 ---
 
