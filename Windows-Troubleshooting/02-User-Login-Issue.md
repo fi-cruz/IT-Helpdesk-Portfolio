@@ -1,4 +1,4 @@
-# Ticket 002 – User Login Failure
+# Ticket 02 – User Login Failure
 
 ## Issue
 User reported inability to log into a Windows workstation due to incorrect credentials.
@@ -19,18 +19,20 @@ User attempted to log into the system but received an authentication error indic
 ## Troubleshooting Steps
 
 1. Verified the user account existed in the system.
-![user created](../Windows-Troubleshooting/Screenshots/Windows/
-3. Attempted login with provided credentials to reproduce the issue.
-4. Confirmed the password being used was incorrect.
-5. Accessed the system using an administrator account.
-6. Navigated to the local user account settings.
+![user created](../Windows-Troubleshooting/Screenshots/Windows/user-created.png)
+2. Attempted login with provided credentials to reproduce the issue.
+3. Confirmed the password being used was incorrect.
+![password-incorrect](../Windows-Troubleshooting/Screenshots/Windows/login-error.png)
+4. Accessed the system using an administrator account.
+5. Opened Command Prompt with administrative privileges.
+![reset-password](../Windows-Troubleshooting/Screenshots/Windows/password-reset.png)
 7. Reset the password for the affected account.
 
 ---
 
 ## Resolution
 
-The user password was reset through administrative account management.
+The user password was reset through the Windows 'net user' command. After resetting the password, the user was able to login succesfully.
 
 ---
 
@@ -39,6 +41,7 @@ The user password was reset through administrative account management.
 User successfully logged into the system with the updated credentials.
 
 Login confirmed functionality restored.
+![login-success](../Windows-Troubleshooting/Screenshots/Windows/login-success.png)
 
 ---
 
