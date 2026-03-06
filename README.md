@@ -42,11 +42,11 @@ Quick access to each lab section:
 
 Direct links:
 
-- [Ticket 001 – No Internet Connectivity](./Windows-Troubleshooting/01-No-Internet-Troubleshooting.md)
-- [Ticket 002 – User Login Issue](./Windows-Troubleshooting/02-User-Login-Issue.md)
-- [Ticket 003 – Slow Performance Investigation](./Windows-Troubleshooting/03-Slow-Performance-Investigation.md)
-- [Ticket 005 – Network Connectivity Issue](./Windows-Troubleshooting/05-Network-Connectivity-Issue.md)
-- [Ticket 006 – DNS Resolution Issue](./Windows-Troubleshooting/06-DNS-Resolution-Issue.md)
+- [Ticket 01 – No Internet Connectivity](./Windows-Troubleshooting/01-No-Internet-Troubleshooting.md)
+- [Ticket 02 – User Login Issue](./Windows-Troubleshooting/02-User-Login-Issue.md)
+- [Ticket 03 – Slow Performance Investigation](./Windows-Troubleshooting/03-Slow-Performance-Investigation.md)
+- [Ticket 05 – Network Connectivity Issue](./Windows-Troubleshooting/05-Network-Connectivity-Issue.md)
+- [Ticket 06 – DNS Resolution Issue](./Windows-Troubleshooting/06-DNS-Resolution-Issue.md)
 
 These scenarios demonstrate common help desk troubleshooting workflows including diagnosing connectivity issues, resolving authentication problems, and improving system performance.
 
