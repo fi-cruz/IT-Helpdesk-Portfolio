@@ -1,4 +1,4 @@
-# Ticket 001 – No Internet Connectivity
+# Ticket 01 – No Internet Connectivity
 
 ## 1. Identify the Problem
 User reported inability to access the internet on a Windows 11 workstation.
