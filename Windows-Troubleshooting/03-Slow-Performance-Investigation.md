@@ -1,37 +1,62 @@
-# Ticket 003 – Slow Computer Performance
+# Ticket 03 – Slow Computer Performance
 
-## 1. Identify the Problem
-User reported Windows workstation running slowly with multiple apps open.
+## Issue
+User reported that their computer was running very slowly when opening applications and performing basic tasks.
 
-## 2. Environment
-- Windows 11 ARM (UTM on macOS)
-- CPU: 8-core
-- RAM: 16GB
+## Environment
+- Windows 11 Virtual Machine
+- Hosted using UTM on macOS
+- Local workstation environment
 
-## 3. Initial Observations
-- High CPU and memory usage in Task Manager
-- Multiple apps running simultaneously
+---
 
-## 4. Troubleshooting Steps Taken
-- Opened Task Manager to identify resource-heavy processes
-- Closed unnecessary applications
-- Ended high-CPU background processes
-- Disabled unnecessary startup apps
+## Initial Symptoms
 
-## 5. Resolution
-System performance improved after removing unnecessary processes and optimizing startup applications.
+- Applications opened slowly
+- System responsiveness was delayed
+- Multiple processes appeared to be consuming high CPU and memory resources
 
-## 6. Verification
-- CPU and memory usage returned to normal
-- User can open apps without lag
+---
 
-## 7. Root Cause
-Too many apps running simultaneously and unnecessary startup processes consuming resources.
+## Troubleshooting Steps
 
-## 8. Prevention
-- Educate user on closing unused apps
-- Review startup applications periodically
-- Monitor system performance regularly
+1. Opened **Task Manager** to monitor system performance.
+
+2. Reviewed the **Processes** tab to identify applications consuming excessive system resources.
+
+3. Observed high CPU and memory usage from multiple running applications.
+
+4. Closed unnecessary applications and background processes to free system resources.
+
+5. Reviewed **Startup Applications** in Task Manager to identify programs automatically launching at startup.
+
+6. Disabled non-essential startup applications to reduce system load.
+
+7. Restarted the system to verify improved performance.
+
+---
+
+## Resolution
+
+System performance improved after closing unnecessary processes and reducing the number of applications running at startup.
+
+---
+
+## Verification
+
+- CPU and memory utilization decreased to normal levels
+- Applications opened and responded normally
+- System performance returned to expected levels
+
+---
+
+## Skills Demonstrated
+
+- Windows performance troubleshooting
+- Task Manager diagnostics
+- Process and resource monitoring
+- Startup application management
+- Basic system optimization
 
 ## Screenshots
 - Screenshot 1: High CPU/Memory usage
