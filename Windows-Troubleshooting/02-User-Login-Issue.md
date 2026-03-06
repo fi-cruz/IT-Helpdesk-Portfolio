@@ -19,11 +19,12 @@ User attempted to log into the system but received an authentication error indic
 ## Troubleshooting Steps
 
 1. Verified the user account existed in the system.
-2. Attempted login with provided credentials to reproduce the issue.
-3. Confirmed the password being used was incorrect.
-4. Accessed the system using an administrator account.
-5. Navigated to the local user account settings.
-6. Reset the password for the affected account.
+![user created](../Windows-Troubleshooting/Screenshots/Windows/
+3. Attempted login with provided credentials to reproduce the issue.
+4. Confirmed the password being used was incorrect.
+5. Accessed the system using an administrator account.
+6. Navigated to the local user account settings.
+7. Reset the password for the affected account.
 
 ---
 
