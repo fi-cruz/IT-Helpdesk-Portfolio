@@ -135,6 +135,7 @@ sudo apt update
 sudo apt install htop
 
 The `sudo` command temporarily grants administrative permissions allowing the installation to complete.
+![sudo-install](../Linux-Labs/01-Linux-Lab-Screenshots/sudo-htop.png)
 
 ---
 
